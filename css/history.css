@@ -1,0 +1,12 @@
+.colum-history{
+    height: 70px;
+
+    td{
+        min-width: 200px !important;
+        border-bottom: 1px solid black;
+    }
+}
+
+th{
+    text-transform: uppercase;
+}

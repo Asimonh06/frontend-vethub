@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VetHub</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/inicio.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="headerContainer">
+        <div class="header__logoSection">
+          <img src="./assets/img/logo.jpg" alt="logo" />
+          <h3>VetHub</h3>
+        </div>
+
+        <a href="/cart.html" class="header_cart">
+          <p id="cart-counter">0</p>
+          <img src="./assets/icons/cart.svg" alt="cart" />
+        </a>
+      </div>
+
+      <!-- opciones -->
+      <div class="header_nav">
+        <a href="/">Inicio</a>
+        <a href="/history.html">Historial de compras</a>
+        <a href="/cart.html">Carrito de compras</a>
+      </div>
+    </header>
+
+    <!-- BANNER -->
+
+    <section class="banner">
+      <div class="bannerContainer">
+        <div class="banner__texto">
+          <h1>Compra lo mejor para tu <span>MASCOTA</span></h1>
+        </div>
+        <img
+          src="https://petsastherapy.org/images/uploads/cutouts/_webp/Become_a_PAT_Vol_page_main_image_copy_1_webp_40cd750bba9870f18aada2478b24840a.webp"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="product">
+      <div id="product-container"></div>
+    </section>
+
+    <footer>
+      <p>VetHub - ©Todos los derechos reservados 2025</p>
+    </footer>
+    <script src="./js/index.js" type="module"></script>
+    <script src="./js/product.js" type="module"></script>
+    <script src="./js/cart.js" type="module"></script>
+  </body>
+</html>
